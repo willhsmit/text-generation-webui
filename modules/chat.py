@@ -442,7 +442,7 @@ def get_history_file_path(unique_id, character, mode):
 
 
 def save_history(history, unique_id, character, mode):
-    if shared.args.multi_user:
+    if shared.args.multi_user or shared.args.no_save_chat_history:
         return
 
     p = get_history_file_path(unique_id, character, mode)
