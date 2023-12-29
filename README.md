@@ -211,6 +211,7 @@ List of command-line flags
 | `--extensions EXTENSIONS [EXTENSIONS ...]` | The list of extensions to load. If you want to load more than one extension, write the names separated by spaces. |
 | `--verbose`                                | Print the prompts to the terminal. |
 | `--chat-buttons`                           | Show buttons on the chat tab instead of a hover menu. |
+| `--no-save-chat-history`                   | Disable saving chat history (but not renaming or reloading). |
 
 #### Model loader
 
